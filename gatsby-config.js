@@ -1,15 +1,16 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.com`,
-    siteAuthor: `@rocketseat`,
+    siteTitle: `Sofol Freelancer - Freelancing Guide`,
+    defaultTitle: `Sofol Freelancer - Freelancing Guide`,
+    siteTitleShort: `SF Freelancing Guide`,
+    siteDescription: `SF Freelancing Guide - will show you the path to your successful journey to become a freelancer`,
+    siteUrl: `#`,
+    siteAuthor: `@sakifkhan98`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
-    themeColor: `#8257E6`,
+    themeColor: `#7159c1`,
     basePath: `/`,
+    footer: `Powered By Sofol Freelancer`,
   },
   plugins: [
     {
@@ -17,8 +18,18 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        githubUrl: `https://github.com/rocketseat/gatsby-themes`,
-        baseDir: `examples/gatsby-theme-docs`,
+        githubUrl: `https://github.com/SakifKhan98/sf-freelancing-guide`,
+        baseDir: `/`,
+      },
+    },
+    {
+      resolve: `@rocketseat/gatsby-theme-docs-core`,
+      options: {
+        // basePath: `documentation`,
+        configPath: `src/config`,
+        docsPath: `src/docs`,
+        githubUrl: `https://github.com/SakifKhan98/sf-freelancing-guide`,
+        baseDir: `/`,
       },
     },
     {
@@ -36,16 +47,31 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // trackingId: ``,
+        trackingId: ``,
       },
     },
-    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.com`,
+        siteUrl: `#`,
       },
     },
     `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Kohinoor", "Roboto"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
+    {
+      resolve: `gatsby-remark-responsive-iframe`,
+      options: {
+        wrapperStyle: `margin-bottom: 1.0725rem`,
+      },
+    },
   ],
+  pathPrefix: "/sf-guideline",
 };

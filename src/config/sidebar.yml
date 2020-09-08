@@ -1,24 +1,36 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
-- label: 'Getting started'
-  link: '/getting-started'
-- label: Usage
+- label: "Welcome!"
+  link: "/"
+- label: "ফ্রিল্যান্সিং কী? কেন শিখবেন?"
+  link: "/what-is-freelancing"
+- label: ফ্রিল্যান্সিং গাইড
   items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Shadowing'
-      link: '/usage/shadowing'
-- label: More
+    - label: "ওয়েব ডেভেলপমেন্ট"
+      link: "/freelancing-guide/web-development"
+    - label: "ডিজিটাল মার্কেটিং"
+      link: "/freelancing-guide/digital-marketing"
+    - label: "অ্যাফিলিয়েট মার্কেটিং"
+      link: "/freelancing-guide/affiliate-marketing"
+    - label: "গ্রাফিক ডিজাইন"
+      link: "/freelancing-guide/graphic-design"
+    - label: "কনটেন্ট রাইটিং"
+      link: "/freelancing-guide/content-writing"
+- label: সফল ফ্রিল্যান্সার
   items:
-    - label: FAQ
-      link: /faq
-    - label: Changelog
-      link: /changelog
-- label: Community
+    - label: "আমাদের গ্রুপ"
+      link: https://www.facebook.com/groups/sofolfreelancer/
+    - label: "আমাদের পেইজ"
+      link: https://www.facebook.com/sofolfreelancer
+    - label: "আমাদের ওয়েবসাইট"
+      link: https://sofolfreelancer.com/
+- label: Learn With SF
   items:
-    - label: 'Github'
-      link: https://github.com/rocketseat/gatsby-themes
+    - label: "Learn With SF ওয়েবসাইট"
+      link: https://www.learnwithsf.com/
+    - label: "আমাদের কোর্স সমূহ"
+      link: https://www.learnwithsf.com/courses/
+    - label: "আমাদের রিভিউ সমূহ"
+      link: https://www.learnwithsf.com/review/
+    - label: "Learn With SF পেইজ"
+      link: https://www.facebook.com/learnwithsofolfreelancer
