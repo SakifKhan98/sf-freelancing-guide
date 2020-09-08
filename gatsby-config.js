@@ -4,7 +4,7 @@ module.exports = {
     defaultTitle: `Sofol Freelancer - Freelancing Guide`,
     siteTitleShort: `SF Freelancing Guide`,
     siteDescription: `SF Freelancing Guide - will show you the path to your successful journey to become a freelancer`,
-    siteUrl: `#`,
+    siteUrl: `https://sl3.app`,
     siteAuthor: `@sakifkhan98`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
