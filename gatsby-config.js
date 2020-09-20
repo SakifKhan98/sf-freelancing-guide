@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Sofol Freelancer - Freelancing Guide`,
-    defaultTitle: `Sofol Freelancer - Freelancing Guide`,
-    siteTitleShort: `SF Freelancing Guide`,
-    siteDescription: `SF Freelancing Guide - will show you the path to your successful journey to become a freelancer`,
-    siteUrl: `https://sl3.app`,
+    siteTitle: `Freelancing For Everyone - Powered by: Sofolfreelancer`,
+    defaultTitle: `Freelancing For Everyone - Powered by: Sofolfreelancer`,
+    siteTitleShort: `Freelancing For Everyone`,
+    siteDescription: `Freelancing For Everyone - Powered by: Sofolfreelancer - will show you the path to your successful journey to become a freelancer`,
+    siteUrl: `http://f4e.online/`,
     siteAuthor: `@sakifkhan98`,
-    siteImage: `/banner.png`,
+    siteImage: `/cover.png`,
     siteLanguage: `en`,
     themeColor: `#7159c1`,
     basePath: `/`,
